@@ -1,0 +1,30 @@
+---
+prefix: "okd-"
+suffix: "l-org.lan."
+okd-service:
+  hostname: "{{ prefix }}service.{{ suffix }}"
+  ipaddr: 
+
+okd-bootstrap:
+  hostname: "{{ prefix }}bootstrap.{{ suffix }}"
+  ipaddr: 10.10.40.201
+
+okd-control-1:
+  hostname: "{{ prefix }}control-1.{{ suffix }}"
+  ipaddr: 10.10.40.202
+
+okd-control-2:
+  hostname: "{{ prefix }}control-2.{{ suffix }}"
+  ipaddr: 10.10.40.203
+
+okd-control-3:
+  hostname: "{{ prefix }}control-3.{{ suffix }}"
+  ipaddr: 10.10.40.204
+
+okd-worker-node-1:
+  hostname: "{{ prefix }}worker-node-1.{{ suffix }}"
+  ipaddr: 10.10.40.211
+
+okd-worker-node-2:
+  hostname: "{{ prefix }}worker-node-2.{{ suffix }}"
+  ipaddr: 10.10.40.212
